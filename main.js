@@ -241,26 +241,54 @@
 
 //functions in javascript
 
-function greet(userName){
-    console.log('Welcome to world of Javascript '+userName)
+// function greet(userName){
+//     console.log('Welcome to world of Javascript '+userName)
+// }
+
+// greet('Rishabh')
+// greet('Lucky')
+// greet('Surabhi')
+
+// function add(a,b){
+//     return a+b
+// }
+
+// const sum=add(10,20)
+// console.log(sum)
+
+
+// //Arrow Function
+// const mul=(a,b)=>{
+// return a*b
+// }
+
+// const res=mul(10,20)
+// console.log(res)
+
+
+//scopes
+
+//Global Scope
+
+const myName='Lucky'
+const myNum=6
+//Block Scope
+
+if(true){
+    const myName='Rishabh'
+  console.log(myName)
+  console.log(myNum)
 }
 
-greet('Rishabh')
-greet('Lucky')
-greet('Surabhi')
 
-function add(a,b){
-    return a+b
+//Function Scope
+
+function greet(){
+    const myName='Jaiswal'
+    console.log(myName)
+    console.log(myNum)
 }
 
-const sum=add(10,20)
-console.log(sum)
-
-
-//Arrow Function
-const mul=(a,b)=>{
-return a*b
-}
-
-const res=mul(10,20)
-console.log(res)
+greet()
+console.log(myName)
+console.log(myNum)
