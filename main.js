@@ -65,45 +65,99 @@
 
 //Assignment Operator
 
-let a=20
-let b=10
+// let a=20
+// let b=10
 
-//Arithmetic operator
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
-console.log(++a)
-console.log(--b)
-
-
-//Comparision operator
-
-console.log(a>b)
-console.log(a<b)
-console.log(a==b)
-console.log(a===b)
-console.log(a>=b)
-console.log(a<=b)
-console.log(a!==b)
-console.log(a!=b)
+// //Arithmetic operator
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+// console.log(a%b)
+// console.log(++a)
+// console.log(--b)
 
 
-//Logical Operator
+// //Comparision operator
 
-const isValid=a>b || b<20
-console.log(isValid)
+// console.log(a>b)
+// console.log(a<b)
+// console.log(a==b)
+// console.log(a===b)
+// console.log(a>=b)
+// console.log(a<=b)
+// console.log(a!==b)
+// console.log(a!=b)
 
-const isReady=true
-console.log(!isReady)
 
-//String Operator
+// //Logical Operator
+
+// const isValid=a>b || b<20
+// console.log(isValid)
+
+// const isReady=true
+// console.log(!isReady)
+
+// //String Operator
  
-console.log('Rishabh '+'Jaiswal')
+// console.log('Rishabh '+'Jaiswal')
 
-//Ternary operator
+// //Ternary operator
 
-const isEven=11%2===0 ? 'number is Even':'number is odd'
-console.log(isEven)
+// const isEven=11%2===0 ? 'number is Even':'number is odd'
+// console.log(isEven)
+
+
+//Type conversion
+
+//Implicit type conversion(type coercion)
+
+console.log('5'+'4')
+console.log('4'+true)
+console.log('5'+undefined)
+console.log('5'+'Rishabh')
+console.log(true+'4')
+console.log('5'-'4')
+console.log('4'-true)
+console.log('4'-false)
+console.log('Rishabh'-'Jaiswal')
+console.log('10'-null)
+console.log('10'-NaN)
+console.log('10'-undefined)
+console.log(true+true)
+console.log(false+false)
+console.log(true+null)
+console.log(true+NaN)
+console.log(true+undefined)
+
+
+//Explicit type conversion
+
+console.log(Number('5'))
+console.log(Number(true))
+console.log(Number(false))
+console.log(Number(''))
+console.log(Number(null))
+console.log(Number(undefined))
+
+console.log(String(2))
+console.log(String(true))
+console.log(String(null))
+console.log(String(undefined))
+
+console.log(parseInt('3'))
+console.log(parseFloat('3.14'))
+console.log(parseInt(true))
+
+console.log((500).toString())
+console.log((true).toString())
+
+console.log(Boolean(10))
+console.log(Boolean(null))
+console.log(Boolean(''))
+console.log(Boolean(undefined))
+console.log(Boolean(NaN))
+console.log(Boolean(0))
+
+
 
