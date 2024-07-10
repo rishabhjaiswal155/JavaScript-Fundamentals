@@ -182,26 +182,59 @@
 
 //Conditional Statements
 
-const num = 0;
-if (num > 0) {
-  console.log("Number is Positive");
-} else if (num < 0) {
-  console.log("Number is Negative");
-} else {
-  console.log("Number is Zero");
+// const num = 0;
+// if (num > 0) {
+//   console.log("Number is Positive");
+// } else if (num < 0) {
+//   console.log("Number is Negative");
+// } else {
+//   console.log("Number is Zero");
+// }
+
+// const color = 'red';
+// switch (color) {
+//   case "red":
+//     console.log("Color is red");
+//     break;
+//   case "blue":
+//     console.log("color is blue");
+//     break;
+//   case "green":
+//     console.log("color is green");
+//     break;
+//   default:
+//     console.log("color is invalid");
+// }
+
+
+//Loops in Javascript
+
+//for loop
+
+let i
+for(i=1;i<=5;i++){
+    console.log('Iteration number ' +i)
 }
 
-const color = 'red';
-switch (color) {
-  case "red":
-    console.log("Color is red");
-    break;
-  case "blue":
-    console.log("color is blue");
-    break;
-  case "green":
-    console.log("color is green");
-    break;
-  default:
-    console.log("color is invalid");
+//while loop
+
+let j=1
+while(j<=5){
+    console.log('Iteration number ' +j)
+    j++
+}
+
+//do while loop
+let k=1
+do{
+    console.log('Iteration number ' +k)
+    k++
+}while(k<=5)
+
+
+//for of loop
+
+const numArray=[1,2,3,4,5]
+for(const num of numArray){
+    console.log('Iteration number '+num)
 }
