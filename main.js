@@ -209,32 +209,58 @@
 
 //Loops in Javascript
 
-//for loop
+// //for loop
 
-let i
-for(i=1;i<=5;i++){
-    console.log('Iteration number ' +i)
+// let i
+// for(i=1;i<=5;i++){
+//     console.log('Iteration number ' +i)
+// }
+
+// //while loop
+
+// let j=1
+// while(j<=5){
+//     console.log('Iteration number ' +j)
+//     j++
+// }
+
+// //do while loop
+// let k=1
+// do{
+//     console.log('Iteration number ' +k)
+//     k++
+// }while(k<=5)
+
+
+// //for of loop
+
+// const numArray=[1,2,3,4,5]
+// for(const num of numArray){
+//     console.log('Iteration number '+num)
+// }
+
+//functions in javascript
+
+function greet(userName){
+    console.log('Welcome to world of Javascript '+userName)
 }
 
-//while loop
+greet('Rishabh')
+greet('Lucky')
+greet('Surabhi')
 
-let j=1
-while(j<=5){
-    console.log('Iteration number ' +j)
-    j++
+function add(a,b){
+    return a+b
 }
 
-//do while loop
-let k=1
-do{
-    console.log('Iteration number ' +k)
-    k++
-}while(k<=5)
+const sum=add(10,20)
+console.log(sum)
 
 
-//for of loop
-
-const numArray=[1,2,3,4,5]
-for(const num of numArray){
-    console.log('Iteration number '+num)
+//Arrow Function
+const mul=(a,b)=>{
+return a*b
 }
+
+const res=mul(10,20)
+console.log(res)
