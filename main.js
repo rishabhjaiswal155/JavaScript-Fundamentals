@@ -54,12 +54,10 @@
 // };
 // console.log(person.firstName)
 
-
 // //Array data-type
 
 // const oddNumber=[1,3,5,7,9]
 // console.log(oddNumber[2])
-
 
 //operators
 
@@ -77,7 +75,6 @@
 // console.log(++a)
 // console.log(--b)
 
-
 // //Comparision operator
 
 // console.log(a>b)
@@ -89,7 +86,6 @@
 // console.log(a!==b)
 // console.log(a!=b)
 
-
 // //Logical Operator
 
 // const isValid=a>b || b<20
@@ -99,14 +95,13 @@
 // console.log(!isReady)
 
 // //String Operator
- 
+
 // console.log('Rishabh '+'Jaiswal')
 
 // //Ternary operator
 
 // const isEven=11%2===0 ? 'number is Even':'number is odd'
 // console.log(isEven)
-
 
 //Type conversion
 
@@ -129,7 +124,6 @@
 // console.log(true+null)
 // console.log(true+NaN)
 // console.log(true+undefined)
-
 
 // //Explicit type conversion
 
@@ -159,30 +153,55 @@
 // console.log(Boolean(NaN))
 // console.log(Boolean(0))
 
-
 //Equality
 
-const var1='test'
-const var2='test'
-console.log(var1==var2)
-console.log(var1===var2)
+// const var1='test'
+// const var2='test'
+// console.log(var1==var2)
+// console.log(var1===var2)
 
-const a=10
-const b='10'
-console.log(a==b)
-console.log(a===b)
+// const a=10
+// const b='10'
+// console.log(a==b)
+// console.log(a===b)
 
-const x=true
-const y=1
-console.log(x==y)
-console.log(x===y)
+// const x=true
+// const y=1
+// console.log(x==y)
+// console.log(x===y)
 
-const p=false
-const q=''
-console.log(p==q)
-console.log(p===q)
+// const p=false
+// const q=''
+// console.log(p==q)
+// console.log(p===q)
 
-const m=null
-const n=undefined
-console.log(m==n)
-console.log(m===n)
+// const m=null
+// const n=undefined
+// console.log(m==n)
+// console.log(m===n)
+
+//Conditional Statements
+
+const num = 0;
+if (num > 0) {
+  console.log("Number is Positive");
+} else if (num < 0) {
+  console.log("Number is Negative");
+} else {
+  console.log("Number is Zero");
+}
+
+const color = 'red';
+switch (color) {
+  case "red":
+    console.log("Color is red");
+    break;
+  case "blue":
+    console.log("color is blue");
+    break;
+  case "green":
+    console.log("color is green");
+    break;
+  default:
+    console.log("color is invalid");
+}
